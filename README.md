@@ -27,9 +27,9 @@ After running this command you can view output logs by running `docker logs` or 
 
 **What’s in the Docker Image?** The Docker image contains the main package of DeFi Blockchain, which includes the main programs - defid, defi-cli, and defi-tx. These programs are located at /app and are also in the PATH for easy access.
 
-**Data and Configuration** Data is stored at /data. The default configuration file, defi.conf, is located at /data/defi.conf. You can view logs using the docker logs command.
+**Data and Configuration:** Data is stored at `/data.` The default configuration file, `defi.conf`, is located at `/data/defi.conf`. You can view logs using the docker logs command.
 
-**Ports** The default ports for DeFi Blockchain are 8555 for Mainnet (JSON-RPC - 8554), 18555 for Testnet (JSON-RPC - 18554), and 19555 for Regtest (JSON-RPC - 19554).
+**Ports:** The default ports for DeFi Blockchain are 8555 for Mainnet (JSON-RPC - 8554), 18555 for Testnet (JSON-RPC - 18554), and 19555 for Regtest (JSON-RPC - 19554).
 
 ## Customization
 
