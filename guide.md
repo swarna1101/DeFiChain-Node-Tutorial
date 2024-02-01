@@ -23,7 +23,7 @@ These commands start a DeFiChain Mainnet node in a docker container.
 
 After running this command you can view output logs by running `docker logs` or clicking the running image option in the docker desktop app and viewing the Logs tab.
 
-![Sample logs](https://drive.google.com/file/d/1qg38zogKk48mhC9IXGfIsXVaRY41KFnK/view?usp=sharing)
+![img_1.png](img_1.png)
 
 **What’s in the Docker Image?** The Docker image contains the main package of DeFi Blockchain, which includes the main programs - defid, defi-cli, and defi-tx. These programs are located at /app and are also in the PATH for easy access.
 
@@ -218,7 +218,7 @@ docker run --rm -it \
   -rpcauth='foo:7d9ba5ae63c3d4dc30583ff4fe65a67e$9e3634e81c11659e3de036d0bf88f89cd169c1039e6e09607562d54765c649cc'
 ```
 
-![Sample output logs](https://drive.google.com/file/d/12D9Wy2_vBz0n2XW_m-57eGCFTo8dOTQY/view?usp=sharing)
+![img_2.png](img_2.png)
 
 After running the Docker command, you can test if the port mapping worked correctly.
 
